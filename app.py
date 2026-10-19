@@ -48,7 +48,7 @@ if submitted:
         if connection and connection.is_connected():
             connection.close()
 
-        st.subheader("Add income")
+st.subheader("Add income")
 
 with st.form("add_income"):
     income_amount = st.number_input(
