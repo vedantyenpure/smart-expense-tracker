@@ -145,6 +145,7 @@ with st.form("add_income_form"):
     )
 
 if save_income:
+    st.write("DEBUG: Save Income button clicked")
     if not income_source.strip():
         st.warning("Please enter an income source.")
 
